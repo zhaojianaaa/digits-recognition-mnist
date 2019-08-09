@@ -8,7 +8,7 @@ Requirements：MATLAB
 Usage：
 Step 1: Run tobmp.m script to generate the appropriate data set for this project;
 Step 2: Run train.m to train this model. It is very vital to adjust some parameters, such the inital weights, bias of the convolution kernel;
-Step 3: the test.m was used for testing.
+Step 3: the LeNet_test.m was used for testing.
 
 Results:
 The upload file contains a small number of images, and you can get the following recognition results. 
