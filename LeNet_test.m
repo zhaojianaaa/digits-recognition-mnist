@@ -1,8 +1,8 @@
-%% matlab implements LeNet
-%  zj
-%  2019.08.09
-% discription:
-% test: implements the forward pass    
+%% title: digits recognition mnist
+%  author: zj
+%  date: 09/08/2019
+%  discription:
+%  test phase, implements the forward pass    
 
 %%
 clear all;clc;
@@ -17,7 +17,7 @@ pooling_a=ones(2,2)/4;
 load c1 kernel_c1 bias_c1
 load c2 kernel_c2 bias_c2
 load output weight_output bias_output
-disp('Parameters import finished£¡ Start testing!');
+disp('Parameters import finishedÂ£Â¡ Start testing!');
 count=0;
 for n=1:10
     for m=0:9
