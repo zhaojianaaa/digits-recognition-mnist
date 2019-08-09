@@ -13,7 +13,7 @@
 %%
 clear all;clc;
 
-%% parameters setting
+%% Network parameters settings
 layer_c1_num=5;
 layer_c2_num=3;
 layer_f1_num=48;
