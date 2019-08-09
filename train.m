@@ -1,15 +1,15 @@
-%% matlab implements LeNet
-%  zj
-%  2019.08.09
-% discription:
-% struct of the model:    
-%       input£º1*28*28
-%       conv1£º5*5*1*5,stride=1,padding=0,valid
-%       pool1£ºavge_2*2
-%       conv2£º5*5*5*3,stride=1,padding=0,valid
-%       pool2£ºavge_2*2
-%       full£º 48
-%       softmax£º10
+%% title:digits recognition mnist
+%  author:zj
+%  date:09/08/2019
+%  discription:
+%  struct of the model:    
+%       inputÂ£Âº1*28*28
+%       conv1Â£Âº5*5*1*5,stride=1,padding=0,valid
+%       pool1Â£Âºavge_2*2
+%       conv2Â£Âº5*5*5*3,stride=1,padding=0,valid
+%       pool2Â£Âºavge_2*2
+%       fullÂ£Âº 48
+%       softmaxÂ£Âº10
 %%
 clear all;clc;
 
